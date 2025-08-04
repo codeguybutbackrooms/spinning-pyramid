@@ -43,7 +43,7 @@ This gives a realistic horizontal rotation.
 
 To show depth and 3D perspective on 2D canvas, we use this simple projection:
 
-$$ x' = \frac{x}{z+d}, \quad y' = \frac{y}{z+d} $$
+$ x' = \frac{x}{z+d}, \quad y' = \frac{y}{z+d} $
 
 Where <kbd>d</kbd> is camera's depth factor. We use:
 
