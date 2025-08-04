@@ -23,7 +23,7 @@ This will create a pyramid pointing upward.
 
 ## 3D Spinning
 I rotate the pyramid around the Y-axis using the Y-axis rotation matrix:
-$$ \begin{bmatrix} \cos(\theta) & 0 & \sin(\theta) \\ 0 & 1 & 0 \\ -\sin(\theta) & 0 & \cos(\theta) \end{bmatrix} $$
+$ \begin{bmatrix} \cos(\theta) & 0 & \sin(\theta) \\ 0 & 1 & 0 \\ -\sin(\theta) & 0 & \cos(\theta) \end{bmatrix} $
 
 Applied to each vertex (x, y, z), it produces the rotated point:
 
