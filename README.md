@@ -23,13 +23,14 @@ This will create a pyramid pointing upward.
 
 ## 3D Spinning
 I rotate the pyramid around the Y-axis using the Y-axis rotation matrix:
-```=latex
+$$
 \begin{bmatrix}
 \cos(\theta) & 0 & \sin(\theta) \\
 0 & 1 & 0 \\
 -\sin(\theta) & 0 & \cos(\theta)
 \end{bmatrix}
-```
+$$
+
 Applied to each vertex (x, y, z), it produces the rotated point:
 
 ```js
@@ -41,9 +42,8 @@ This gives a realistic horizontal rotation.
 ## Perspective Projection
 
 To show depth and 3D perspective on 2D canvas, we use this simple projection:
-```=latex
-x' = \frac{x}{z+d}, \quad y' = \frac{y}{z+d}
-```
+
+$$ x' = \frac{x}{z+d}, \quad y' = \frac{y}{z+d} $$
 
 Where <kbd>d</kbd> is camera's depth factor. We use:
 
