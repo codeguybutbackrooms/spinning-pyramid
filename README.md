@@ -23,6 +23,9 @@ This will create a pyramid pointing upward.
 
 ## 3D Spinning
 I rotate the pyramid around the Y-axis using the Y-axis rotation matrix:
+
+<br>
+
 $`
 \begin{pmatrix}
 \cos(\theta) & 0 & \sin(\theta) \\
